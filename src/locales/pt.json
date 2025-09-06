@@ -83,19 +83,19 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É EDSON BRITO ADVOGADOS ASSOCIADOS",
+    "title": "Nossa trajetória",
+    "subtitle": "Compromisso com justiça social, ética e soluções jurídicas inovadoras.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "a_Definir",
+    "paragraph": "O escritório Edson Brito Advogados Associados nasceu do propósito de apoiar a população mais carente, assegurando o acesso aos seus direitos e dando voz às necessidades da comunidade.",
+    "modal": "O escritório Edson Brito Advogados Associados nasceu do propósito de apoiar a população mais carente, assegurando o acesso aos seus direitos e dando voz às necessidades da comunidade. <br/> <br/> Nossa missão é oferecer serviços jurídicos completos, ágeis e transparentes, sempre guiados pela ética, inovação e clareza na busca dos melhores resultados para cada cliente. <br/> <br/> Buscamos ser mais que um escritório, mas também um agente de transformação social, incentivando jovens advogados e mantendo valores como respeito, honestidade e comprometimento.",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
       "labelFacebook": "A_Definir",
       "labelLinkedin": "A_Definir",
       "labelX": "A_Definir"
