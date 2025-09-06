@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA",
+    "title": "Quantos direitos você <span class=\"text-primary font-bold\">já perdeu?</span>",
+    "subtitle": "Não saber seus direitos pode custar caro. Descubra agora como proteger o que é seu por lei.",
+    "ctaButtonText": "Quero garantir meus direitos",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento online para todo Brasil"
     }
   },
   "features": {
