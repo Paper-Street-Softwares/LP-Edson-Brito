@@ -1,9 +1,9 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Avenida Santos Dumont, <br/> nº 1752 – Bairro Estrada do Coco,  <br/> Edf. Empresarial Refran, Sala 502, 5º Andar,   <br/> Lauro de Freitas – BA, CEP: 42700-000.",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
-    "expedienteSecundario": "A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 8h às 18h",
+    "expedienteSecundario": "Sábado: <br/> 9h às 12h",
     "obs": "A_Definir"
   },
   "navbar": {
@@ -11,8 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"
