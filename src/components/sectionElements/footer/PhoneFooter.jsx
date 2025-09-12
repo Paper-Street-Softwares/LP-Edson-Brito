@@ -21,7 +21,7 @@ function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
 
   return (
     <>
-      <MotionDivDownToUp>
+      {/* <MotionDivDownToUp>
         <div className="flex full gap-x-[12px] items-center opacity-90">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ function PhoneFooter({ colorMode, phoneTwo = true, phoneThree = false }) {
             {content.texts.infos.phone}
           </a>
         </div>
-      </MotionDivDownToUp>
+      </MotionDivDownToUp> */}
 
       {phoneTwo && (
         <MotionDivDownToUp>
