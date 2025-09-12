@@ -1,13 +1,18 @@
+import { useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
+import { Dialog } from "primereact/dialog";
+import { X, MoveRight } from "lucide-react";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Button from "../interactives/Button";
 
 export default function Features6cards({ colorMode }) {
   const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
 
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
@@ -24,7 +29,6 @@ export default function Features6cards({ colorMode }) {
 
   const cardNumbers = [1, 2, 3, 4, 5, 6];
 
-  // Função para renderizar título, usando Trans para o card6
   const renderTitle = (i) => {
     if (i === 6) {
       return (
@@ -33,6 +37,8 @@ export default function Features6cards({ colorMode }) {
     }
     return t(`features.card${i}.title`);
   };
+
+  const openModal = () => setVisible(true);
 
   return (
     <SectionArea id="service" className={`${bgClass}`}>
@@ -90,12 +96,44 @@ export default function Features6cards({ colorMode }) {
                     i === 4 ? "tablet1:mb-[26px] desktop1:mb-0" : undefined
                   }
                   colorMode={colorMode}
-                />
+                >
+                  {i === 6 && (
+                    <Button
+                      className="mt-[16px] text-labelButtons"
+                      label={t("about.buttonModalLabelAbout")}
+                      onClick={openModal}
+                      removeAnchor={true}
+                      removeTarget={true}
+                      animation={true}
+                      icon={<MoveRight />}
+                    />
+                  )}
+                </IconFeatureCard>
               </MotionDivDownToUp>
             ))}
           </div>
         </div>
       </SectionWrapper>
+
+      {/* Modal apenas para o último card */}
+      <Dialog
+        className="font-secondFont"
+        closeIcon={<X size={20} />}
+        header={t("features.card6.title")}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "4000px": "40vw", "1024px": "70vw", "641px": "85vw" }}
+      >
+        <div className="text-paragraph3">
+          <div
+            className="description"
+            dangerouslySetInnerHTML={{
+              __html: t("features.card6.description"),
+            }}
+          />
+        </div>
+      </Dialog>
     </SectionArea>
   );
 }
